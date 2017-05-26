@@ -15,7 +15,7 @@ https://core.telegram.org/bots#botfather
 - Install the "selenium" and "telebot" libraries for Python,
 welcome to Habr https://habrahabr.ru/post/248559/
 
-- Install ChromeDriver, https://sites.google.com/a/chromium.org/chromedriver/
+- Download ChromeDriver, https://sites.google.com/a/chromium.org/chromedriver/
  and in file keyboards.py indicate the path to it
 
 Next add token and requisites for authorization from "you know where" and Go use ботана ;)
