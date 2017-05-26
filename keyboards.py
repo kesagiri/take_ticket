@@ -25,7 +25,7 @@ def help(message):
 
 
 def ticket(message):
-    driver = webdriver.Chrome("C:/Users/a.dubchak/IdeaProjects/chromedriver.exe")
+    driver = webdriver.Chrome("C:/chromedriver.exe")
     driver.get('https://staff2.timeweb.ru/tickets/picker/pick?service=clients')
     element = driver.find_element_by_id("loginform-username")
     element.send_keys("")  # логин
